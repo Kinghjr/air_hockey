@@ -1,0 +1,39 @@
+﻿生成启动时间为 2018/12/31 21:48:34。
+     1>项目“E:\practice_c++\air_hockey\air_hockey\air_hockey.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt air_hockey.cpp
+         air_hockey.cpp
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(150): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(151): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(187): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(204): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(205): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(206): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(212): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(231): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(232): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(247): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(248): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(266): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(319): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(320): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(321): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(285): warning C4101: “result”: 未引用的局部变量
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(377): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(378): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(379): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(346): warning C4101: “result”: 未引用的局部变量
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(418): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(430): warning C4101: “readResult”: 未引用的局部变量
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(427): warning C4101: “unbyte”: 未引用的局部变量
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(625): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(412): warning C4715: “openComPort”: 不是所有的控件路径都返回值
+     1>e:\practice_c++\air_hockey\air_hockey\air_hockey.cpp(655): warning C4700: 使用了未初始化的局部变量“counter”
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\practice_c++\air_hockey\Debug\air_hockey.exe" /INCREMENTAL /NOLOGO opencv_ml249d.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_objdetect249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_nonfree249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_videostab249d.lib opencv_objdetect249.lib opencv_ts249.lib opencv_video249.lib opencv_nonfree249.lib opencv_ocl249.lib opencv_photo249.lib opencv_stitching249.lib opencv_superres249.lib opencv_videostab249.lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\practice_c++\air_hockey\Debug\air_hockey.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\practice_c++\air_hockey\Debug\air_hockey.lib" /MACHINE:X86 Debug\air_hockey.obj
+         air_hockey.vcxproj -> E:\practice_c++\air_hockey\Debug\air_hockey.exe
+     1>已完成生成项目“E:\practice_c++\air_hockey\air_hockey\air_hockey.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.89
